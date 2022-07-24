@@ -15,6 +15,7 @@ t{ ." a dummy test" cr
 t{ ." factorial with loop" cr
   0 fact 1 ?s
   1 fact 1 ?s
+  2 fact 2 ?s
 }t
 pass-or-die
 bye
