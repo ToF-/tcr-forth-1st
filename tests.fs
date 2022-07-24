@@ -18,5 +18,9 @@ t{ ." factorial with loop" cr
   2 fact 2 ?s
   3 fact 6 ?s
 }t
+
+t{ ." factorial with recurse" cr
+  0 factr 1 ?s
+}t
 pass-or-die
 bye

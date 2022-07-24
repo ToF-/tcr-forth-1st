@@ -6,3 +6,6 @@
     do i * loop
   then ;
 
+: factr ( n -- n! )
+  drop 1 ;
+
