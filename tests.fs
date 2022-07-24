@@ -23,6 +23,7 @@ t{ ." factorial with recurse" cr
   0 factr 1 ?s
   2 factr 2 ?s
   3 factr 6 ?s
+  4 factr 24 ?s
 }t
 pass-or-die
 bye
