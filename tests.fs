@@ -13,10 +13,10 @@ t{ ." a dummy test" cr
 
 
 t{ ." factorial with loop" cr
-  0 fact 1 ?s
-  1 fact 1 ?s
-  2 fact 2 ?s
-  3 fact 6 ?s
+  0 factl 1 ?s
+  1 factl 1 ?s
+  2 factl 2 ?s
+  3 factl 6 ?s
 }t
 
 t{ ." factorial with recurse" cr

@@ -1,4 +1,4 @@
-: fact ( n -- n! )
+: factl ( n -- n! )
   dup 2 < if
     drop 1
   else
