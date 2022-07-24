@@ -7,7 +7,7 @@ require ffl/tst.fs
   then ;
 
 t{ ." a dummy test" cr
-  true ?false
+  false ?false
 }t
 
 pass-or-die
