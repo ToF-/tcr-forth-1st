@@ -1,4 +1,5 @@
 require ffl/tst.fs
+require factorial.fs
 
 : pass-or-die
   tst-errors @ if
@@ -11,5 +12,8 @@ t{ ." a dummy test" cr
 }t
 
 
+t{ ." factorial with loop" cr
+  0 fact 1 ?s
+}t
 pass-or-die
 bye
